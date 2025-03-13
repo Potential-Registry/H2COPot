@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "H2COPot"
+authors = [
+    {name = "Mark Boyer", email = "maboyer@tamu.edu"},
+]
+description = "A formaldehyde potential from a 2011 paper"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = []
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "mccoygroup-mcutils",
+]
+dynamic = ["version"]
